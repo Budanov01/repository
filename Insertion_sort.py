@@ -1,6 +1,7 @@
-List = [2, 1, 4, 3]
+# coding=utf-8
+List = list(input('введите список '))
 
-for i in range(1, len(List)):
+for i in range(len(List)):
         x = List[i]
         j = i - 1
         while j >= 0 and List[j] > x:

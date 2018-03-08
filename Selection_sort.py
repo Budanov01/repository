@@ -1,5 +1,5 @@
-List = [300, 800, 22]
-
+# coding=utf-8
+List = list(input('введите список '))
 n = 0
 while n < len(List) - 1:
     m = n

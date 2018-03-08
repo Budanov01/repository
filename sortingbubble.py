@@ -1,4 +1,5 @@
-List = ['a', 'f', 'b', 'a', 'v']
+# coding=utf-8
+List = list(input('введите список '))
 n = 1
 while n < len(List):
     for i in range(len(List) - n):
