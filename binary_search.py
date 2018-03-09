@@ -11,6 +11,6 @@ def binary_search(A, key):
             right = middle 
         else: 
             left = middle 
-    return right
+    return 'искомый ключ под номером ' + str(right)
 
 print(binary_search(A, key))
