@@ -8,7 +8,7 @@ def pyramida(h):
     elif h > 23:
         print('Это слишком большая высота')
     elif h - int(h) != 0:
-        print('Высота должна целым числом')
+        print('Высота должна быть целым числом')
     else:
         a = [[' '] * (h + 1) for i in range(h)]
         for i in range(h):
