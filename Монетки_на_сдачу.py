@@ -15,4 +15,3 @@ def money(m):
         return 'Кол-во монет: '+ '50коп.—' + str(a) + ', 10коп.—' + str(b) + ', 5коп.—' + str(c)  + ', 1коп.—' + str(d)
 
 print(money(m))
-
