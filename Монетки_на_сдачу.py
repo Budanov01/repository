@@ -1,4 +1,3 @@
-# coding=utf-8
 m = input('How much do you need to give money? : ')
 
 def money(m):
