@@ -1,17 +1,18 @@
 # coding=utf-8
-m = input('Сколько нужно дать сдачи? : ')
+m = input('How much do you need to give money? : ')
 
 def money(m):
     if m <= 0:
-        return 'вы должник'
+        return 'you are a debtor'
     elif m - int(m) != 0:
         M = m - int(m)
-        return 'нет такой копейки — ' + str(M)
+        return 'no such money — ' + str(M)
     else:
         a = m / 50
         b = m % 50 / 10
         c = m % 50 % 10 / 5
         d = m % 50 % 10 % 5
-        return 'Кол-во монет: '+ '50коп.—' + str(a) + ', 10коп.—' + str(b) + ', 5коп.—' + str(c)  + ', 1коп.—' + str(d)
+        return 'Number of coins: '+ '50kopecks—' + str(a) + ', 10kopecks—' + str(b) + ', 5kopecks—' + str(c)\
+               + ', 1kopecks—' + str(d)
 
 print(money(m))
