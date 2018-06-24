@@ -3,8 +3,8 @@ alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
             'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
             'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
-word = input()
-key = input()
+word = input('write the word into ')
+key = input('write the key of cipher ' )
 new_word = []
 
 def cipher_of_Caesar(word, key, new_word, alphabet):
