@@ -13,6 +13,6 @@ def cipher_of_Caesar(word, key, new_word, alphabet):
             if word[i] == alphabet[j]:
                 new_word.append(alphabet[j+key])
     WORD = ''.join(new_word)
-    print(WORD)
+    return(WORD)
 
 print(cipher_of_Caesar(word, key, new_word, alphabet))
